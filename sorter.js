@@ -17,4 +17,4 @@ const sorter = (arr, key) =>
 		return 0
 	})
 
-export default sorter
+module.exports = sorter

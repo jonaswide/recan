@@ -15,4 +15,4 @@ const renameKey = (oldKey, newKey, { [oldKey]: old, ...obj }) => ({
 	...obj,
 })
 
-export default renameKey
+module.exports = renameKey

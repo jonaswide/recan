@@ -15,4 +15,4 @@ const concatCurryer = pre => cur => {
 	return [...preToConcat, ...curToConcat]
 }
 
-export default concatCurryer
+module.exports = concatCurryer

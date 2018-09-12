@@ -11,4 +11,4 @@
 
 const roundNumber = (n, decimals = 0) => Number(`${Math.round(`${n}e${decimals}`)}e-${decimals}`)
 
-export default roundNumber
+module.exports = roundNumber

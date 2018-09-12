@@ -26,4 +26,4 @@ const stringHandleRegEx = (str, match, func) => {
 	return result
 }
 
-export default stringHandleRegEx
+module.exports = stringHandleRegEx

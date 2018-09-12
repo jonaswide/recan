@@ -11,4 +11,4 @@
 
 const evolution = (pre, cur) => (1 - pre / cur) * 100
 
-export default evolution
+module.exports = evolution
