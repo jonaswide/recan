@@ -6,11 +6,11 @@
  * @return {String}
  *
  * @example
- * stringHandleRegEx("this is bold", "bold", match => <b>{match}</b>)
- * // => "this is <b>bold</b>"
+ * stringHandleRegEx("this is reversed", "reversed", match => match.split("").reverse().join(""))
+ * // => "this is desrever"
  */
 
-export const stringHandleRegEx = (str, match, func) => {
+const stringHandleRegEx = (str, match, func) => {
 	let curCharStart = 0
 	let curCharLen = 0
 
@@ -25,3 +25,5 @@ export const stringHandleRegEx = (str, match, func) => {
 
 	return result
 }
+
+export default stringHandleRegEx

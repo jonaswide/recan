@@ -9,4 +9,6 @@
  * // => 37.5
  */
 
-export const evolution = (pre, cur) => (1 - pre / cur) * 100
+const evolution = (pre, cur) => (1 - pre / cur) * 100
+
+export default evolution

@@ -9,5 +9,6 @@
  * // => 67.5
  */
 
-export const roundNumber = (n, decimals = 0) =>
-	Number(`${Math.round(`${n}e${decimals}`)}e-${decimals}`)
+const roundNumber = (n, decimals = 0) => Number(`${Math.round(`${n}e${decimals}`)}e-${decimals}`)
+
+export default roundNumber

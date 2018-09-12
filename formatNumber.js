@@ -8,4 +8,6 @@
  * // => 12 345 678
  */
 
-export const formatNumber = num => num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")
+const formatNumber = num => num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")
+
+export default formatNumber

@@ -10,7 +10,9 @@
  * // => { b: 5 }
  */
 
-export const renameKey = (oldKey, newKey, { [oldKey]: old, ...obj }) => ({
+const renameKey = (oldKey, newKey, { [oldKey]: old, ...obj }) => ({
 	[newKey]: old,
 	...obj,
 })
+
+export default renameKey
