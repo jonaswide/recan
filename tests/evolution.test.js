@@ -1,6 +1,6 @@
-import evolution from "../evolution"
 import test from "ava"
+import evolution from "../evolution"
 
-test("Evolution", t => {
+test("evolution", t => {
 	t.is(evolution(50, 80), 37.5)
 })
